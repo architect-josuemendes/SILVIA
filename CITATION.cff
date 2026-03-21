@@ -8,7 +8,7 @@ abstract: >-
   Regeneration Index (TRI), a composite metric integrating ecosystem diversity, 
   cultural integrity, regeneration capacity, and information sovereignty.
 type: software
-version: 0.3.0
+version: 0.1.0
 doi: "10.5281/zenodo.19151384"
 date-released: "2026-03-21"
 license: AGPL-3.0

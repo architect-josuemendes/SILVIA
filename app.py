@@ -128,7 +128,7 @@ def health():
     return jsonify({
         'status': 'ok',
         'service': 'SILVIA',
-        'version': '0.3.0',
+        'version': '0.1.0',
         'sessions': len(agent.sessions),
         'twilio': twilio_client is not None
     })
@@ -151,7 +151,7 @@ def session_info(sender):
 
 if __name__ == '__main__':
     logger.info("=" * 50)
-    logger.info("SILVIA v0.3.0")
+    logger.info("SILVIA v0.1.0")
     logger.info(f"Port: {PORT} | Debug: {DEBUG}")
     logger.info(f"Twilio: {'connected' if twilio_client else 'local-only'}")
     logger.info("")

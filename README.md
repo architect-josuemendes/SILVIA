@@ -5,7 +5,7 @@ A federated Digital Twin framework for sovereign territorial data governance.
 **Author:** Josue Mendes · Diplom-Architekt (USB/Anabin H+) · BIM Specialist  
 **Contact:** josuemendesv@gmail.com  
 **License:** AGPL-3.0  
-**Status:** Proof of Concept (v0.3.0)
+**Status:** Proof of Concept (v0.1.0)
 
 ---
 
@@ -105,7 +105,7 @@ AGPL-3.0 — derivative works must remain open source, protecting the framework 
   title        = {{SILVIA: Sovereign Information Learning Virtual Intelligent Architecture}},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v0.3.0},
+  version      = {v0.1.0},
   doi          = {10.5281/zenodo.19151384}
 }
 ```

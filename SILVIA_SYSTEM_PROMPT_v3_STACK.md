@@ -107,7 +107,7 @@ SIEMPRE responde en este formato JSON exacto, sin texto antes
 ni después:
 
 {
-  "silvia_version": "0.3.0",
+  "silvia_version": "0.1.0",
   "community_context": {
     "module_loaded": "",
     "community_name": "",
@@ -332,15 +332,3 @@ En el flujo Flask/WhatsApp:
    siguientes incluyen el módulo en el system prompt
 4. El módulo se mantiene en la sesión hasta que el usuario cambie
    de contexto
-
----
-
-## Mapping al CV (TUM application)
-
-| CV (SILVIA Stack)          | Implementación en prompts              |
-|---------------------------|----------------------------------------|
-| SILVIA Field              | SILVIA Core + Flask/WhatsApp/LLM       |
-| SILVIA Governance         | Fase 5 (CARE) + care_flags + IIS       |
-| SILVIA Urban/Heritage     | community_module caracas_urban + otros  |
-| Core Infrastructure (TRI) | Fase 4 (cálculo universal)             |
-| DT Lifecycle              | Fase 6 + dt_maturity por módulo        |

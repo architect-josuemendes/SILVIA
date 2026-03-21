@@ -16,7 +16,7 @@ from silvia_agent import SilviaAgent
 # ═══════════════════════════════════════════════════════════
 
 MOCK_PEMON_RESPONSE = json.dumps({
-    "silvia_version": "0.3.0",
+    "silvia_version": "0.1.0",
     "community_context": {
         "module_loaded": "pemon_kanaimo",
         "community_name": "Kanaimö",
@@ -70,7 +70,7 @@ MOCK_PEMON_RESPONSE = json.dumps({
 })
 
 MOCK_CARACAS_RESPONSE = json.dumps({
-    "silvia_version": "0.3.0",
+    "silvia_version": "0.1.0",
     "community_context": {
         "module_loaded": "caracas_urban",
         "community_name": "Petare",
@@ -126,7 +126,7 @@ MOCK_CARACAS_RESPONSE = json.dumps({
 })
 
 MOCK_UNKNOWN_RESPONSE = json.dumps({
-    "silvia_version": "0.3.0",
+    "silvia_version": "0.1.0",
     "community_context": {
         "module_loaded": "",
         "community_name": "",

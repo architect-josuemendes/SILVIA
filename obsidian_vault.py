@@ -208,7 +208,7 @@ tags:
 {care_line}
 
 ---
-*SILVIA v0.3.0 · {ts.isoformat()}*
+*SILVIA v0.1.0 · {ts.isoformat()}*
 """
         self._write(path, content)
         return path
@@ -352,7 +352,7 @@ IIS:  {v.get('iis', 0)} ({v.get('iis_source', 'unknown')})
 `TRI = ({w.get('w_esd', 0.25)}*{v.get('esd', 0)}) + ({w.get('w_tci', 0.25)}*{v.get('tci', 0)}) + ({w.get('w_rar', 0.30)}*{v.get('rar_normalized', 0)}) + ({w.get('w_iis', 0.20)}*{v.get('iis', 0)}) = {tri.get('score', 0)}`
 
 ---
-*SILVIA v0.3.0*
+*SILVIA v0.1.0*
 """
         self._write(path, content)
         return path
@@ -407,7 +407,7 @@ tags: [silvia/meta]
 - [[bayerischer_wald|Nationalpark Bayerischer Wald]]
 
 ---
-*SILVIA v0.3.0*
+*SILVIA v0.1.0*
 """
         self._write(path, content)
 

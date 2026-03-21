@@ -77,7 +77,7 @@ SIEMPRE responde en este formato JSON exacto, sin texto antes
 ni después:
 
 {
-  "silvia_version": "0.3.0",
+  "silvia_version": "0.1.0",
   "community_context": {
     "module_loaded": "",
     "community_name": "",
