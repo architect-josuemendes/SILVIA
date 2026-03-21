@@ -1,0 +1,76 @@
+═══════════════════════════════════════════════════
+COMMUNITY MODULE: pemon_kanaimo
+dt_maturity: embryonic
+tri_weights: [0.25, 0.25, 0.30, 0.20]
+language_primary: pemón (taurepán)
+language_secondary: español
+region: Gran Sabana, Bolívar, Venezuela
+═══════════════════════════════════════════════════
+
+ESTACIONES PEMÓN (temporalidad local):
+- Wotunnö (dic–mar): sequía intensa, quema controlada de
+  sabana (práctica ancestral legítima), riesgo de incendios
+  no controlados
+- Tamukunnö (abr–may): transición, primeras lluvias,
+  preparación de conucos
+- Kononnö (jun–sep): lluvias fuertes, ríos crecidos, alta
+  biodiversidad activa, pesca abundante
+- Wairö (oct–nov): transición a sequía, cosecha, recolección
+
+INDICADORES ECOLÓGICOS (para cálculo ESD):
+Fauna:
+- danta (Tapirus terrestris) → bosque de galería saludable
+- tucán (Ramphastos spp.) → dosel intacto
+- tonina (Inia geoffrensis) → calidad de agua fluvial
+- cunaguaro (Leopardus pardalis) → corredor ecológico funcional
+- báquiro (Pecari tajacu) → salud del sotobosque
+- guacamaya (Ara spp.) → palmas frutales disponibles
+- zamuro rey (Sarcoramphus papa) → cadena trófica completa
+
+Flora:
+- moriche (Mauritia flexuosa) → humedal funcional, morichal
+- tepuy-endémicas (Stegolepis, Heliamphora) → integridad de
+  cumbres tepuyanas
+- curata (Copaifera officinalis) → bosque maduro no intervenido
+- sarrapia (Dipteryx punctata) → bosque estacional intacto
+
+TOPONIMIA / GEOGRAFÍA:
+- Kanaimö: territorio sagrado, fuerzas espirituales Pemón
+- Roraima-tepui: formación tabular sagrada, punto triple
+  fronterizo (VE/BR/GY)
+- Kukenán-tepui: formación tabular sagrada
+- Kamarata: centro comunitario del valle
+- Río Caroní: arteria hídrica principal, cuenca del Orinoco
+- Río Aponwao: arteria hídrica secundaria
+- Kerepakupai Merú (Salto Ángel): sitio ceremonial y turístico
+- Kavak: comunidad y cañón
+- Wonkén: comunidad misionera histórica
+- Paraitepui: comunidad base para ascenso al Roraima
+
+PRÁCTICAS TERRITORIALES (para cálculo TCI):
+- Conuco rotativo: agricultura de tala y quema controlada,
+  ciclos de 3–7 años. NO es deforestación.
+- Taren: cantos protectores para cacería, pesca, salud.
+  Protocolo ceremonial — activar care_flag si se menciona.
+- Quema de sabana (wotunnö): manejo ancestral del fuego,
+  DISTINTO a incendio descontrolado. Clasificar como TCI
+  positivo si es intencional y estacional.
+- Mañoco/casabe: procesamiento de yuca amarga, indicador de
+  soberanía alimentaria activa.
+- Capitanía: estructura de gobernanza territorial. Si el
+  observador es capitán → inferred_role = community_leader,
+  iis_raw >= 0.9
+
+REGLAS ESPECÍFICAS PEMÓN:
+1. La quema controlada en wotunnö es práctica ancestral — NO
+   clasificar como degradación sin evidencia de descontrol.
+2. Menciones de Kanaimö (espíritu/fuerza) son culturalmente
+   sensibles → care_flag: "ceremonial_protocol"
+3. Ubicaciones exactas de comunidades pequeñas → care_flag:
+   "location_sensitivity"
+4. Turismo no regulado en tepuyes → puede indicar presión
+   territorial, evaluar en RAR.
+5. Minería ilegal (garimpo) = rar_raw automático <= -0.7,
+   priority = "critical"
+6. Presencia de tonina (delfín rosado) en ríos = indicador
+   positivo fuerte de calidad hídrica (esd_raw += 0.15)

@@ -1,0 +1,42 @@
+{
+  "title": "SILVIA: Sovereign Information Learning Virtual Intelligent Architecture",
+  "description": "A federated Digital Twin framework for sovereign territorial data governance. SILVIA converts qualitative territorial observations into structured ecological knowledge graphs using a modular community-based architecture and the Territorial Regeneration Index (TRI), a composite metric integrating ecosystem diversity, cultural integrity, regeneration capacity, and information sovereignty. Designed to bridge ISO 19650 digital twin standards with low-connectivity environments where communities monitor their own territories.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Mendes, Josue",
+      "affiliation": "Independent Researcher / Arka Atelier",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "digital twin",
+    "territorial governance",
+    "data sovereignty",
+    "indigenous knowledge",
+    "CARE principles",
+    "ecological monitoring",
+    "federated architecture",
+    "BIM",
+    "knowledge graph",
+    "Territorial Regeneration Index"
+  ],
+  "license": "AGPL-3.0-only",
+  "version": "0.3.0",
+  "doi": "10.5281/zenodo.19151384",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Giosuamendes/SILVIA",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "references": [
+    "Berkes, F. (2008). Sacred Ecology: Traditional Ecological Knowledge and Resource Management. Routledge.",
+    "Mang, P., & Reed, B. (2012). Designing from place: a regenerative framework and methodology. Building Research & Information, 40(1), 23-38.",
+    "Niemi, G. J., & McDonald, M. E. (2004). Application of ecological indicators. Annual Review of Ecology, Evolution, and Systematics, 35, 89-111.",
+    "CARE Principles for Indigenous Data Governance. Global Indigenous Data Alliance (GIDA)."
+  ]
+}

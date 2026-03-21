@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use SILVIA, please cite it using this metadata."
+title: "SILVIA: Sovereign Information Learning Virtual Intelligent Architecture"
+abstract: >-
+  A federated Digital Twin framework for sovereign territorial data governance. 
+  SILVIA converts qualitative territorial observations into structured ecological 
+  knowledge graphs using a modular community-based architecture and the Territorial 
+  Regeneration Index (TRI), a composite metric integrating ecosystem diversity, 
+  cultural integrity, regeneration capacity, and information sovereignty.
+type: software
+version: 0.3.0
+doi: "10.5281/zenodo.19151384"
+date-released: "2026-03-21"
+license: AGPL-3.0
+repository-code: "https://github.com/Giosuamendes/SILVIA"
+authors:
+  - family-names: Mendes
+    given-names: Josue
+    email: josuemendesv@gmail.com
+    orcid: ""
+    affiliation: "Independent Researcher / Arka Atelier"
+keywords:
+  - digital-twin
+  - territorial-governance
+  - data-sovereignty
+  - indigenous-knowledge
+  - CARE-principles
+  - ecological-monitoring
+  - federated-architecture
+  - BIM
+  - knowledge-graph
+  - WhatsApp
+references:
+  - type: book
+    authors:
+      - family-names: Berkes
+        given-names: Fikret
+    title: "Sacred Ecology: Traditional Ecological Knowledge and Resource Management"
+    year: 2008
+    publisher:
+      name: Routledge
+  - type: article
+    authors:
+      - family-names: Mang
+        given-names: Pamela
+      - family-names: Reed
+        given-names: Bill
+    title: "Designing from place: a regenerative framework and methodology"
+    year: 2012
+    journal: "Building Research & Information"
+    volume: 40
+    issue: 1
+    start: 23
+    end: 38
+  - type: article
+    authors:
+      - family-names: Niemi
+        given-names: Gerald J.
+      - family-names: McDonald
+        given-names: Michael E.
+    title: "Application of ecological indicators"
+    year: 2004
+    journal: "Annual Review of Ecology, Evolution, and Systematics"
+    volume: 35
+    start: 89
+    end: 111

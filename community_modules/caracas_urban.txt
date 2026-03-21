@@ -1,0 +1,63 @@
+═══════════════════════════════════════════════════
+COMMUNITY MODULE: caracas_urban
+dt_maturity: shadow
+tri_weights: [0.25, 0.30, 0.25, 0.20]
+language_primary: español
+region: Área Metropolitana de Caracas, Venezuela
+═══════════════════════════════════════════════════
+
+NOTA: Este módulo está en estado shadow. Las observaciones
+se recopilan para futura validación comunitaria. Los análisis
+son preliminares.
+
+TEMPORALIDAD LOCAL:
+- Sequía (dic–abr): riesgo de incendios en el Ávila/Waraira
+  Repano, racionamiento de agua, calor urbano intenso
+- Lluvias (may–nov): riesgo de deslizamientos en laderas
+  informales, crecidas de quebradas, inundaciones en zonas
+  bajas
+
+INDICADORES ECOLÓGICOS (para cálculo ESD):
+Fauna urbana:
+- turpial (Icterus icterus) → arbolado urbano funcional
+- guacharaca (Ortalis ruficauda) → corredores verdes activos
+- rabipelado (Didelphis marsupialis) → presencia de
+  ecosistema periurbano
+- pereza (Bradypus/Choloepus) → conectividad de dosel
+
+Flora/paisaje:
+- araguaney (Handroanthus chrysanthus) → indicador estacional
+- bucare (Erythrina poeppigiana) → sombra urbana, parques
+- río Guaire: estado = indicador de gestión ambiental urbana
+- quebradas: estado de cauces naturales en zonas informales
+- Waraira Repano (Ávila): integridad del parque nacional
+
+TOPONIMIA / GEOGRAFÍA:
+- Parroquias: unidad administrativa básica
+  (Petare, Catia, El Valle, Chacao, Baruta, etc.)
+- Barrios: asentamiento informal en ladera
+- Urbanizaciones: zona residencial formal
+- El Ávila / Waraira Repano: parque nacional, pulmón verde
+- Río Guaire: eje hídrico principal (altamente contaminado)
+- Quebradas: cauces naturales, muchos canalizados o invadidos
+- Cota Mil: vialidad que delimita zona urbana formal de ladera
+
+PRÁCTICAS TERRITORIALES (para cálculo TCI):
+- Huertos urbanos comunitarios → soberanía alimentaria
+- Organización vecinal (consejo comunal) → gobernanza local
+- Gestión comunitaria de agua → respuesta a racionamiento
+- Autoconstrucción progresiva → adaptación territorial
+- Mapeo participativo de riesgos → prevención comunitaria
+
+REGLAS ESPECÍFICAS CARACAS:
+1. Asentamientos informales en ladera + lluvias = evaluar
+   riesgo de deslizamiento, priority >= "high"
+2. Reportes de crecida de quebrada = priority "critical"
+3. Datos de ubicación exacta de barrios vulnerables →
+   care_flag: "location_sensitivity" + "economic_vulnerability"
+4. Presencia de fauna silvestre en zona urbana puede indicar
+   desplazamiento por destrucción de hábitat periurbano
+5. Estado del Guaire solo puede mejorar TRI si hay evidencia
+   de intervención concreta (no solo ausencia de olor)
+6. Minería en Waraira Repano = priority "critical",
+   rar_raw <= -0.7
