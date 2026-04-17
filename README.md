@@ -5,7 +5,7 @@ A federated Digital Twin framework for sovereign territorial data governance.
 **Author:** Josue Mendes · Diplom-Architekt (USB/Anabin H+) · BIM Specialist  
 **Contact:** josuemendesv@gmail.com  
 **License:** AGPL-3.0  
-**Status:** Proof of Concept (v0.1.0)
+**Status:** Proof of Concept + Executive Summary (v0.2.0)
 
 ---
 
