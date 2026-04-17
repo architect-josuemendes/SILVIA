@@ -15,6 +15,8 @@ SILVIA is a modular framework that converts qualitative territorial observations
 
 A community member sends a WhatsApp message describing what they observe. SILVIA identifies the community context, interprets the observation using a locally-defined knowledge base, calculates a Territorial Regeneration Index (TRI), and stores everything as linked notes in an Obsidian vault — creating a visual Digital Twin that grows with every observation.
 
+Proof of Concept is avaible on youtube:
+
 [![SILVIA PoC Demo](https://img.youtube.com/vi/zXmm28oHyhg/maxresdefault.jpg)](https://youtu.be/zXmm28oHyhg)
 
 
