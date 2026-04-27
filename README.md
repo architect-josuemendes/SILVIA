@@ -19,7 +19,11 @@ Proof of Concept is avaible on youtube:
 
 [![SILVIA PoC Demo](https://img.youtube.com/vi/ZgWuc1AAr_4/0.jpg)](https://youtu.be/ZgWuc1AAr_4?si=kQrE44jLTz7HQxhG)
 
-
+SILVIA's current development stage focuses on IFC integration, 
+enabling structured observation data to be exported as semantically 
+rich files compatible with openBIM workflows. This bridges community 
+territorial knowledge with ISO 19650 digital twin standards at the 
+building and territory scale.
 
 ## Architecture
 
