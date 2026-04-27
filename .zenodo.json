@@ -23,12 +23,12 @@
   ],
   "license": "AGPL-3.0-only",
   "version": "0.1.0",
-  "doi": "10.5281/zenodo.19151384",
+  "doi": "10.5281/zenodo.19616669",
   "language": "eng",
   "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/Giosuamendes/SILVIA",
+      "identifier": "https://github.com/architect-josuemendes/SILVIA",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
