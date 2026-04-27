@@ -17,7 +17,7 @@ A community member sends a WhatsApp message describing what they observe. SILVIA
 
 Proof of Concept is avaible on youtube:
 
-[![SILVIA PoC Demo](https://img.youtube.com/vi/zXmm28oHyhg/maxresdefault.jpg)](https://youtu.be/zXmm28oHyhg)
+[![SILVIA PoC Demo](https://youtu.be/ZgWuc1AAr_4?si=kQrE44jLTz7HQxhG)
 
 
 
