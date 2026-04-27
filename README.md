@@ -15,6 +15,34 @@ SILVIA is a modular framework that converts qualitative territorial observations
 
 A community member sends a WhatsApp message describing what they observe. SILVIA identifies the community context, interprets the observation using a locally-defined knowledge base, calculates a Territorial Regeneration Index (TRI), and stores everything as linked notes in an Obsidian vault — creating a visual Digital Twin that grows with every observation.
 
+Theoretical Foundation:
+
+The primitive hut — Laugier's 1753 argument that legitimate architecture 
+emerges from the inhabitant's own needs, built with available means, 
+without external imposition — is not a building. It is an argument about 
+who has the right to build.
+
+SILVIA applies the same argument to data.
+
+The community that inhabits a territory is the only legitimate author of 
+its digital twin. External observers — researchers, NGOs, state agencies — 
+can contribute observations, but those observations carry less epistemic 
+weight than the knowledge accumulated by the people who live, cultivate, 
+and mourn within that territory. This is not a political position. It is 
+a methodological one: data generated without sovereignty is structurally 
+incomplete.
+
+This is why IIS (Indigenous/Inhabitant Information Sovereignty) is not 
+a correction factor in the TRI — it is the index's epistemological spine. 
+The same observation generates a different score depending on who reports 
+it, because the same observation *means* something different depending on 
+who holds the knowledge that contextualizes it.
+
+SILVIA began as a promise made in Kanaimö, Gran Sabana, Venezuela — where 
+a community asked not for aid, but for professionals. The primitive hut 
+they needed was not architectural. It was epistemic: a system to make 
+their knowledge durable, queryable, and sovereign.
+
 Proof of Concept is available on youtube:
 
 [![SILVIA PoC Demo](https://img.youtube.com/vi/ZgWuc1AAr_4/0.jpg)](https://youtu.be/ZgWuc1AAr_4?si=kQrE44jLTz7HQxhG)
